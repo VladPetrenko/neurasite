@@ -1,0 +1,183 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	/* flex-flow: row wrap; */
+	/* height: 77px; */
+	justify-content: center;
+	/* max-width: 1280px; */
+	/* margin: 0 auto; */
+	/* margin-top: 10px; */
+	/* overflow: hidden; */
+}
+
+.header div:nth-of-type(1) {
+	width: 55%;
+	background-color: #dcdcdc;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: white;
+}
+
+.header  div:nth-of-type(2) {
+	background-color: #f6f6f6;
+	padding-top: 10px;
+	padding-left: 410px;
+	
+	width: 40%;
+	float: left;
+}
+
+.header img {
+	
+}
+
+.btn {
+	background-color: #21b4eb;
+	border: none;
+	border-radius: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 36px;
+    /* padding: 0 32px; */
+}
+
+.email {
+	border: none;
+	border-bottom: 1px solid #21b4eb;
+	width: 240px; 
+	margin-right: 10px;
+}
+
+::-webkit-input-placeholder {
+	color:#21b4eb;
+}
+
+
+.neura {
+	display: flex;
+	flex-direction: column;
+	background: url("../images/neura1.jpg") no-repeat;
+	height: 442px;
+	background-size: cover;
+	align-items: center;
+	/*background-repeat: repeat-y;*/
+    /* background-attachment: fixed; */
+    /*background-position: center;*/
+	/* min-height: 442px; */
+	/* width: 100%; */
+	/* justify-content: center; */
+	/* margin: 0 auto; */
+}
+
+.neura h3 {
+	margin-top: -50px;
+	font-size: 36.477px;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255);
+    line-height: 1.381;
+    -moz-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
+    -webkit-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
+    -ms-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
+}
+
+.neura h2 {
+	margin-top: -10px;
+	font-size: 36.477px;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255);
+    /* line-height: 1.381; */
+    /* -moz-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
+    -webkit-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
+    -ms-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0); */
+}
+
+.neura .btn {
+	margin-top: 65px;
+}
+
+.neura img {
+	align-self: flex-start;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.main {
+	background-image: -moz-linear-gradient( -90deg, rgb(0,115,158) 4%, rgb(33,180,235) 43%, rgb(214,255,254) 82%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(0,115,158) 4%, rgb(33,180,235) 43%, rgb(214,255,254) 82%);
+    background-image: -ms-linear-gradient( -90deg, rgb(0,115,158) 4%, rgb(33,180,235) 43%, rgb(214,255,254) 82%);
+    height: 864px;
+    z-index: 30;
+
+    display: flex;
+
+    /* flex-flow: row wrap; */
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    /* align-self: center; */
+    /* justify-content: center; */
+    overflow: hidden;
+
+}
+
+.main .item {
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.item {
+	flex-grow: ;
+	flex-shink: ;
+}
+
+.main div:nth-of-type(1) {
+	margin-right: 50px;
+	margin-bottom: -120px;
+}
+
+.main div:nth-of-type(2) {
+	margin-right: 50px;
+	margin-bottom: -85px;
+}
+
+.main div:nth-of-type(3) {
+	margin-bottom:  -120px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 455px;
+	/* align-self: center; */
+	/* justify-content: space-between; */
+	/* align-self: center; */
+}
+
+.more {
+	display: inline-flex;
+	flex-flow: row wrap;
+	flex-direction: column;
+	align-items: center;
+	height: 405px;
+	background-color: #f6f6f6;
+}
+
+.more button:nth-of-type(1) {
+	/* flex-direction: wrap; */
+	odrder: 1;
+}
+
+.more button:nth-of-type(2) {
+	/* flex-direction: wrap; */
+	odrder: 2;
+}
