@@ -7,27 +7,36 @@
 	display: flex;
 	/* flex-flow: row wrap; */
 	/* height: 77px; */
-	justify-content: center;
+	justify-content: space-between;
 	/* max-width: 1280px; */
 	/* margin: 0 auto; */
 	/* margin-top: 10px; */
 	/* overflow: hidden; */
 }
 
-.header div:nth-of-type(1) {
-	width: 55%;
+.header .first_head {
+	width: 50%;
 	background-color: #dcdcdc;
 	padding-top: 10px;
 	padding-left: 10px;
+	padding-bottom: 30px;
 	color: white;
+	position: relative;
+}
+.first_head:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 42px;
+	height: 100%;
+	background: url("../images/corner.png") no-repeat;
 }
 
 .header  div:nth-of-type(2) {
 	background-color: #f6f6f6;
 	padding-top: 10px;
 	padding-left: 410px;
-	
-	width: 40%;
 	float: left;
 }
 
