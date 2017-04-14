@@ -1,0 +1,74 @@
+@media only screen and (max-width: 525px) {
+	.header {
+		flex-direction: column;
+		justify-content: space-around;
+		background-color: #fff;
+
+
+	}
+	.header .first_head {
+		width: 100%;
+		background-color: #fff;
+		color: #1f3f4c;
+		padding: none;
+		/* text-align: center; */
+		
+	}
+
+	.header .first_head h3 {
+		font: 12.83px/16.98px "BebasNeueRegular";
+		text-transform: uppercase;
+		text-align: center;
+
+	} 
+
+	.header .first_head p {
+		font: 9.81px/12.83px "BebasNeueRegular";
+		text-align: center;
+	}
+
+	.first_head:after {
+		display: none;
+	}
+
+	.header  .second_head {
+		width: 100%;
+		padding: none;
+		text-align: center;
+		
+		
+	}
+
+	.email {
+		width: 200px;
+		margin: auto;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	.neura {
+		width: 100%;
+		display: flex;
+	}
+
+	.container {
+		
+	}
+
+	.logo {
+		display: inline-block;
+	}
+
+	.text-box {
+		self-item: center;
+	}
+
+	
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}

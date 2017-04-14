@@ -1,17 +1,46 @@
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/BebasNeueBold.otf);
+}
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSansBold.ttf);
+}
+@font-face {
+    font-family: OpenSansItalic;
+    src: url(../fonts/OpenSansItalic.ttf);
+}
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/OpenSansSemiBold.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../fonts/RobotoMedium.ttf);
+}
+
 * {
 	padding: 0;
 	margin: 0;
 }
 
+body{
+	font-family: OpenSans;
+}
+
 .header {
 	display: flex;
-	/* flex-flow: row wrap; */
-	/* height: 77px; */
 	justify-content: space-between;
-	/* max-width: 1280px; */
-	/* margin: 0 auto; */
-	/* margin-top: 10px; */
-	/* overflow: hidden; */
+	background-color: #f6f6f6;
+	
 }
 
 .header .first_head {
@@ -19,7 +48,7 @@
 	background-color: #dcdcdc;
 	padding-top: 10px;
 	padding-left: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 23px;
 	color: white;
 	position: relative;
 }
@@ -33,15 +62,9 @@
 	background: url("../images/corner.png") no-repeat;
 }
 
-.header  div:nth-of-type(2) {
-	background-color: #f6f6f6;
-	padding-top: 10px;
-	padding-left: 410px;
-	float: left;
-}
-
-.header img {
-	
+.header  .second_head {
+	padding-top: 16px;
+    padding-right: 54px;
 }
 
 .btn {
@@ -69,39 +92,29 @@
 
 ::-webkit-input-placeholder {
 	color:#21b4eb;
+	background-color: #f6f6f6;
+	padding-left: 30px;
 }
 
 
 .neura {
-	display: flex;
-	flex-direction: column;
 	background: url("../images/neura1.jpg") no-repeat;
-	height: 442px;
 	background-size: cover;
-	align-items: center;
-	/*background-repeat: repeat-y;*/
-    /* background-attachment: fixed; */
-    /*background-position: center;*/
-	/* min-height: 442px; */
-	/* width: 100%; */
-	/* justify-content: center; */
-	/* margin: 0 auto; */
+
+	
+	
 }
 
-.neura h3 {
-	margin-top: -50px;
-	font-size: 36.477px;
+.neura p {
+	font-size: 37px;
     font-family: "Bebas Neue";
     color: rgb(255, 255, 255);
     line-height: 1.381;
-    -moz-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
-    -webkit-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
-    -ms-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
+    
 }
 
-.neura h2 {
-	margin-top: -10px;
-	font-size: 36.477px;
+.neura h1 {
+	font-size: 37px;
     font-family: "Bebas Neue";
     color: rgb(255, 255, 255);
     /* line-height: 1.381; */
@@ -111,13 +124,32 @@
 }
 
 .neura .btn {
-	margin-top: 65px;
+	/* margin-top: 65px; */
 }
 
-.neura img {
-	align-self: flex-start;
-	margin-top: 100px;
-	margin-left: 100px;
+.container {
+	max-width: 1280px;
+	padding: 24px 0 110px 27px;
+}
+
+.text-box {
+	text-align: center;
+	margin-top: 60px;
+	/* margin-left: 308px;
+	margin-right: 305px; */
+}
+
+.text-box .btn {
+	margin-top: 20px;
+}
+
+.text-box h1 {
+	font-family: "BebasNeueBold";
+}
+
+.text-box h2 {
+	font-family: "BebasNeueBold";
+	color: #fff;
 }
 
 .main {
@@ -190,3 +222,4 @@
 	/* flex-direction: wrap; */
 	odrder: 2;
 }
+
