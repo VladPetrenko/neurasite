@@ -49,9 +49,10 @@ body{
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-bottom: 23px;
-	color: white;
+	color: rgb(31, 63, 76);
 	position: relative;
 }
+
 .first_head:after {
 	content: '';
 	position: absolute;
@@ -74,13 +75,16 @@ body{
     color: white;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    line-height: 1.7;
+    font-weight: bold;
+    font-size: 14px;
+  	font-family: "Open Sans";
+    margin: 3px 2px;
     cursor: pointer;
     width: 200px;
     height: 36px;
-    /* padding: 0 32px; */
 }
 
 .email {
@@ -118,20 +122,12 @@ body{
 	font-size: 37px;
     font-family: "Bebas Neue";
     color: rgb(255, 255, 255);
-    /* line-height: 1.381; */
-    /* -moz-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
-    -webkit-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0);
-    -ms-transform: matrix( 0.92003296202831,0,0,0.92003296202831,0,0); */
-}
-
-.neura .btn {
-	/* margin-top: 65px; */
 }
 
 .logo {
 	position: absolute;
-	left: 10px;
-	top: 10px;
+	left: 27px;
+	top: 24px;
 }
 
 .container {
@@ -143,8 +139,6 @@ body{
 .text-box {
 	text-align: center;
 	margin-top: 60px;
-	/* margin-left: 308px;
-	margin-right: 305px; */
 }
 
 .text-box .btn {
@@ -165,50 +159,77 @@ body{
 	background-image: -moz-linear-gradient( -90deg, rgb(0,115,158) 4%, rgb(33,180,235) 43%, rgb(214,255,254) 82%);
     background-image: -webkit-linear-gradient( -90deg, rgb(0,115,158) 4%, rgb(33,180,235) 43%, rgb(214,255,254) 82%);
     background-image: -ms-linear-gradient( -90deg, rgb(0,115,158) 4%, rgb(33,180,235) 43%, rgb(214,255,254) 82%);
-    min-height: 864px;
-    padding-top: 27px;
+    /* height: 864px; */
+    padding-top: 27px; 
+    overflow: hidden;
     
 }
 
 .facilities {
 	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.facilities h1 {
+	font-family: "Bebas Neue";
+	font-weight: bold;
+    line-height: 1.5;
+}
+
+.facilities h4 {
+  font-family: "Open Sans";
+  line-height: 1.4;
+  	
 }
 
 .phones {
+	
 	display: flex;
-	justify-content: space-around;
-    overflow: hidden;
-	/* align-content: flex-end; */
-	/* align-items: flex-end; */
-	/* width: 1280px; */
-	/* flex-flow: row wrap; */
-	/* margin: 0 auto; */
-	/* z-index: 30; */
-	/* flex-direction: column; */
-    /* align-items: flex-end; */
-    /* align-self: center; */
-    /* justify-content: center; */
+	max-width: 1280px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: -105px;
 }
 
 .item {
-	width: 223px;
-	align-self: flex-end;
-	margin-bottom: -50px;
+	overflow: hidden;
+	padding-top: 70px;
+	text-align: center;
 }
 
-/* .item:nth-of-type(1) {
-	margin-right: 50px;
-	margin-bottom: -120px;
+.item h2 {
+  padding-top: 25px;
+  padding-bottom: 19px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.3;
+  text-align: center;
 }
 
-.item:nth-of-type(2) {
-	margin-right: 50px;
-	margin-bottom: -85px;
+.item p {
+  /* font-size: 20px; */
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-align: center;
+  padding-bottom: 52px;
 }
 
-.item:nth-of-type(3) {
-	margin-bottom:  -120px;
-} */
+.phone2 {
+	padding-left: 63px;
+	padding-right: 63px;
+	margin-bottom: 50px;
+
+}
+
+.phone3 {
+
+	
+}
 
 /*************END PHONES*************/
 
@@ -216,11 +237,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* height: 455px; */
-	/* align-self: center; */
-	/* justify-content: space-between; */
 	align-self: flex-start;
-	    padding-top: 41px;
+	padding-top: 41px;
 
 }
 
@@ -250,7 +268,6 @@ body{
 	flex-flow: row wrap;
 	flex-direction: column;
 	align-items: center;
-	/* height: 405px; */
 	background-color: #f6f6f6;
 }
 
@@ -279,12 +296,10 @@ body{
 }
 
 .more button:nth-of-type(1) {
-	/* flex-direction: wrap; */
 	odrder: 1;
 }
 
 .more button:nth-of-type(2) {
-	/* flex-direction: wrap; */
 	odrder: 2;
 }
 
@@ -292,19 +307,24 @@ body{
 	display: inline-block;
 }
 
-.Experience_the_flexibility_and_personalization_ {
-  font-size: 20px;
+.btn-white {
+  font-size: 8pt;
+  padding: 8px 18px 7px 18px;
   font-family: "Open Sans";
-  color: rgb(31, 63, 76);
-  line-height: 1.3;
+  color: rgb(33, 180, 235);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
   text-align: center;
-  position: absolute;
-  left: 259.747px;
-  top: 1978.861px;
-  width: 701px;
-  height: 46px;
-  z-index: 5;
+  border-width: 2px;
+  border-color: rgb(33, 180, 235);
+  border-style: solid;
+  border-radius: 23px;
+  margin: 4px 2px; 
+  background-color: #f6f6f6;
+  
 }
+
 
 
 
