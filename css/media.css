@@ -1,129 +1,137 @@
 @media only screen and (max-width: 525px) {
-	.header {
-		flex-direction: column;
-		justify-content: space-around;
-		background-color: #fff;
+    .header {
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .header .first_head {
+        width: 200px;
+        background-color: #fff;
+        color: #1f3f4c;
+        padding: none;
+        margin: 0 auto;
+    }
+    .header .first_head h3 {
+        font: 14px/21px "BebasNeueRegular";
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .header .first_head p {
+        font: 13px/17px "BebasNeueRegular";
+        text-align: center;
+    }
+    .first_head:after {
+        display: none;
+    }
+    /**********SECOND HEAD**************************/
+    .header .second_head {
+        padding-right: 0;
+    }
+    .second_head {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    ::-webkit-input-placeholder {
+        background-color: #fff;
+    }
+    .email {
+        width: 200px;
+    }
+    /**************END SECOND HEAD*****************/
+    .neura {
+        width: 100%;
+        display: flex;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .text-box {
+        self-item: center;
+    }
+    .facilities {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /*****************PHONES*****************************/
+    .phones {
+        margin-bottom: 0;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .phone-mob {
+        /* width: 10%; */
+        /* height: 10%; */
 
-
-	}
-	.header .first_head {
-		width: 100%;
-		background-color: #fff;
-		color: #1f3f4c;
-		padding: none;
-		/* text-align: center; */
-		
-	}
-
-	.header .first_head h3 {
-		font: 12.83px/16.98px "BebasNeueRegular";
-		text-transform: uppercase;
-		text-align: center;
-
-	} 
-
-	.header .first_head p {
-		font: 9.81px/12.83px "BebasNeueRegular";
-		text-align: center;
-	}
-
-	.first_head:after {
-		display: none;
-	}
-
-	.header  .second_head {
-		flex-direction: column;
-		width: 100%;
-		padding: none;
-		text-align: center;
-	}
-
-	::-webkit-input-placeholder {
-		background-color: #fff;
-	}
-
-	.email {
-		width: 200px;
-		margin: auto;
-	}
-
-	body {
-		width: 100%;
-	}
-
-	.neura {
-		width: 100%;
-		display: flex;
-	}
-
-	.container {
-		
-	}
-
-	.logo {
-		display: inline-block;
-	}
-
-	.text-box {
-		self-item: center;
-	}
-
-	.facilities {
-		width: 70%;
-		margin: 0 auto;
-	}
-/*****************PHONES*****************************/
-	.phones {
-		margin-bottom: 0;
-		flex-direction: column;
-	}
-
-	.phones h2, .phones p {
-		width: 50%;
-	}
-
-	.phones img:nth-child(1) {
-		width: 80px;
-		height: 80px;
+    }
+    .round {
+        /* width: 10%; */
+        /* height: 10%; */
+    }
+    .phone-text {
+        width: 200px;
+    }
+    /****************PHONE ITEMS******************/
+    .phone1 {
+    	display: flex;
+        align-self: flex-start;
+        align-items: center;
+    }
+	.phone1 .round {
+		order: 2;
 	}
 
-	.phones img:nth-child(2) {
-		width: 50%;
-		height: 50%;
+	.phone1 .phone-text {
+		order: 3;
 	}
 
+    .phone2 {
+    	display: flex;
+        align-self: flex-end;
+        padding-right: 0;
+        padding-left: 0;
+        align-items: center;
+    }
 
-	.phone1{
-		text-align: left;
-		display: inline-block;
+    .phone2 .round {
+		order: 2;
 	}
 
-	.phone2 {
-		text-align: right;
-		padding-right: 0;
-		padding-left: 0;
+	.phone2 .phone-text {
+		order: 1;
 	}
 
-	.phone3 {
-		text-align: left;
+	.phone2 .phone-mob {
+		order: 3;
+	}
+    .phone3 {
+    	display: flex;
+        align-self: flex-start;
+        align-items: center;
+    }
+
+    .phone3 .round {
+		order: 2;
 	}
 
-	/*****************GET DEMO**************/
-	.get_demo {
-		display: flex;
-		flex-direction: column;
+	.phone3 .phone-text {
+		order: 3;
 	}
-
-	.more button {
-		margin-bottom: 20px;
-	}
-
-	.btn-white {
-		margin: 0 0 0 0;
-	}
-
-
-	
+   
+    /*****************GET DEMO**************/
+    .get_demo {
+        display: flex;
+        flex-direction: column;
+    }
+    .more button {
+        margin-bottom: 20px;
+    }
+    .btn-white {
+        margin: 0 0 0 0;
+    }
 }
 
 @font-face {
