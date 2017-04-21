@@ -32,11 +32,14 @@
 	}
 
 	.header  .second_head {
+		flex-direction: column;
 		width: 100%;
 		padding: none;
 		text-align: center;
-		
-		
+	}
+
+	::-webkit-input-placeholder {
+		background-color: #fff;
 	}
 
 	.email {
@@ -64,6 +67,61 @@
 	.text-box {
 		self-item: center;
 	}
+
+	.facilities {
+		width: 70%;
+		margin: 0 auto;
+	}
+/*****************PHONES*****************************/
+	.phones {
+		margin-bottom: 0;
+		flex-direction: column;
+	}
+
+	.phones h2, .phones p {
+		width: 50%;
+	}
+
+	.phones img:nth-child(1) {
+		width: 80px;
+		height: 80px;
+	}
+
+	.phones img:nth-child(2) {
+		width: 50%;
+		height: 50%;
+	}
+
+
+	.phone1{
+		text-align: left;
+		display: inline-block;
+	}
+
+	.phone2 {
+		text-align: right;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.phone3 {
+		text-align: left;
+	}
+
+	/*****************GET DEMO**************/
+	.get_demo {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.more button {
+		margin-bottom: 20px;
+	}
+
+	.btn-white {
+		margin: 0 0 0 0;
+	}
+
 
 	
 }
